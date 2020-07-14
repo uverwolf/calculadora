@@ -62,4 +62,25 @@ public class Calculadora implements java.io.Serializable {
 			break;
 		}
 	}
+	public void realizarCalculo(double operador,String Operador) {
+		switch (Operador) {
+		case "+":
+			setResultado(getResultado()+operador);
+			System.out.println("Resultado actual : "+getResultado());
+			break;
+		case "-":
+			setResultado(getResultado()-operador);
+			System.out.println("Resultado actual :"+getResultado());
+			break;
+		case "*":
+			setResultado(getResultado()*operador);
+			System.out.println("Resultado actual :"+getResultado());
+			break;
+		case "/":
+			setResultado(getResultado()/operador);
+			System.out.println("Resultado actual : "+getResultado());
+		default:
+			break;
+		}
+	}
 }

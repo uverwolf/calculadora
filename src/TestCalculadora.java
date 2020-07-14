@@ -8,6 +8,8 @@ public class TestCalculadora {
 		calculadora.realizarCalculo(1,100,"+");
 		calculadora.realizarCalculo(9,3,"-");
 		calculadora.realizarCalculo(10,2,"/");
+		calculadora.realizarCalculo(5, "+");
+		calculadora.realizarCalculo(2, "/");
 	}
 
 }
